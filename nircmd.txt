@@ -1,0 +1,3 @@
+system("start "" nircmd mediaplay 10000 lagu.mp3");
+
+system("taskkill /IM nircmd.exe /F");
